@@ -39,6 +39,9 @@ The output for your program may be described by the following pattern, where BN 
 
 Each gameboard representation should match the following pattern, where each letter C is replaced with either X, O, or a period (.). The letter X means the player has shot there and it was a hit. The letter Y means the player has shot there and it was a miss. The period means the player has not yet shot there.
 
+ |A|B|C|D|E|F|G|H|I|J|
+0|C|C|C|C|C|C|C|C|C|C|
+
 >  ABCDEFGHIJ  
 0 CCCCCCCCCC  
 1 CCCCCCCCCC  
