@@ -42,18 +42,15 @@ Each gameboard representation should match the following pattern, where each let
 | |A|B|C|D|E|F|G|H|I|J|
 |-|-|-|-|-|-|-|-|-|-|-|
 |0|C|C|C|C|C|C|C|C|C|C|
-
->  ABCDEFGHIJ  
-0 CCCCCCCCCC  
-1 CCCCCCCCCC  
-2 CCCCCCCCCC  
-3 CCCCCCCCCC  
-4 CCCCCCCCCC  
-5 CCCCCCCCCC  
-6 CCCCCCCCCC  
-7 CCCCCCCCCC  
-8 CCCCCCCCCC  
-9 CCCCCCCCCC  
+|1|C|C|C|C|C|C|C|C|C|C|
+|2|C|C|C|C|C|C|C|C|C|C|
+|3|C|C|C|C|C|C|C|C|C|C|
+|4|C|C|C|C|C|C|C|C|C|C|
+|5|C|C|C|C|C|C|C|C|C|C|
+|6|C|C|C|C|C|C|C|C|C|C|
+|7|C|C|C|C|C|C|C|C|C|C|
+|8|C|C|C|C|C|C|C|C|C|C|
+|9|C|C|C|C|C|C|C|C|C|C|
 
 A shot description always begins with the column letter and row number of the shot, followed by a colon, followed by a description of the result. If the shot was a miss, you should just output the word "Miss". For example, if a shot at column J row 5 was a miss, the output would look like the following.
 
