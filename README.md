@@ -53,7 +53,7 @@ Each gameboard representation should match the following pattern, where each let
 
 A shot description always begins with the column letter and row number of the shot, followed by a colon, followed by a description of the result. If the shot was a miss, you should just output the word "Miss". For example, if a shot at column J row 5 was a miss, the output would look like the following.
 
-``J5: Miss``
+```J5: Miss```
 
 If the show was a hit, you should output the word "Hit" followed by the name of the ship that was hit. For example, if a shot at column J row 5 hit the Carrier, the output would look like the following.
 
