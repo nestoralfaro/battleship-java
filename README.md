@@ -1,7 +1,7 @@
 # Battleship Java
 This java program is a 1-player Battleship game. It is played on a 10x10 grid representing the ocean and containing ships. Each cell in the grid is identified by a letter representing a column and a number representing a row. Ships are comprised of a sequence of contiguous cells, either all in the same row or all in the same column. There are five ships having different lengths.
 
-- Carrier, length 5
+> - Carrier, length 5
 - Battleship, length 4
 - Cruiser, length 3
 - Submarine, length 3
