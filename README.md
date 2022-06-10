@@ -1,6 +1,5 @@
-The names of all students who worked on the project
-Nestor Alfaro
-Any special instructions to use the project 
-  - As detailed on the webpage.
-Any know strengths or weaknesses of the project
-  - It is broken-down into detailed components, which I consider makes it helpful for debugging and modularity purposes. 
+# Battleship Java
+
+
+## Demo
+![battleship-java-demo](https://user-images.githubusercontent.com/83131937/172994940-3c7fb8b0-e766-43b2-8cc2-bee6572c6617.gif)
