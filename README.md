@@ -64,7 +64,9 @@ If the show was a hit, you should output the word "Hit" followed by the name of 
 If the ship that was hit has been sunk you should output "You sank my" and the name of the ship. For example, if a shot at column J row 5 hit the Carrier, and the Carrier was sunk, the output would look like the following.
 
 ``
-J5: Hit Carrier  
+J5: Hit Carrier <br />  
+
+
 You sank my Carrier
 ``
 
