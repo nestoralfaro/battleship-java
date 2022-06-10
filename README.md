@@ -1,15 +1,17 @@
 # Battleship Java
 This java program is a 1-player Battleship game. It is played on a 10x10 grid representing the ocean and containing ships. Each cell in the grid is identified by a letter representing a column and a number representing a row. Ships are comprised of a sequence of contiguous cells, either all in the same row or all in the same column. There are five ships having different lengths.
 
-> - Carrier, length 5
+- Carrier, length 5
 - Battleship, length 4
 - Cruiser, length 3
 - Submarine, length 3
 - Destroyer, length 2
 
-The ships are placed in random locations. Two ships cannot contain the same cell. The picture below gives one possible setup of the game board (taken directly from Dr. Foust's [project description](https://cs.harding.edu/gfoust/classes/comp3450/project05.html)).
+The ships are placed in random locations. Two ships cannot contain the same cell.
 
-<img width="1079" alt="Screen Shot 2022-06-09 at 11 17 11 PM" src="https://user-images.githubusercontent.com/83131937/172995332-9364079e-0528-49c6-8c71-434f82db2cd2.png">
+>The picture below gives one possible setup of the game board (taken directly from Dr. Foust's [project description](https://cs.harding.edu/gfoust/classes/comp3450/project05.html)).
+
+<img width="800" alt="Screen Shot 2022-06-09 at 11 17 11 PM" src="https://user-images.githubusercontent.com/83131937/172995332-9364079e-0528-49c6-8c71-434f82db2cd2.png">
 
 When the game begins, the player does not know where the ships are on the board. The player may “shoot” in different cells in an attempt to hit one of the ships. Cells of the gameboard are identified by their column letter and row number—e.g., “B9” or “H4”. After each shot, the game responds by reporting which ship was hit by the shot, or that no ship was hit by the shot. If a ship has been hit in all of its cells, it sinks. You must sink all the ships to win the game.
 
