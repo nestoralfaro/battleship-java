@@ -24,7 +24,7 @@ This is a console application with no UI (no prompts, etc.). The application wil
 ### Input
 The input to the program will begin with five groups of three letters. These five groups represent the positions of the five ships in this order: carrier, battleship, cruiser, submarine, and destroyer. The first character will be a column letter; the second character will be a row number; and the third character will be either the letter H or the letter V representing either Horizontal or Vertically, respectively. The first two characters define the upper-left corner of the ship, and the third character defines whether the ship proceeds to the right (for H) or down (for V). The input that defines the board in the picture above would be the following.
 
-``F7H B1V D6V F3H I3V``
+>F7H B1V D6V F3H I3V
 
 You do not need to perform any input validation; you may assume that the input is in the correct format and describes valid positions for the ships.
 
@@ -39,36 +39,30 @@ The output for your program may be described by the following pattern, where BN 
 
 Each gameboard representation should match the following pattern, where each letter C is replaced with either X, O, or a period (.). The letter X means the player has shot there and it was a hit. The letter Y means the player has shot there and it was a miss. The period means the player has not yet shot there.
 
-``
-  ABCDEFGHIJ<br />
-0 CCCCCCCCCC<br />
-1 CCCCCCCCCC<br />
-2 CCCCCCCCCC<br />
-3 CCCCCCCCCC<br />
-4 CCCCCCCCCC<br />
-5 CCCCCCCCCC<br />
-6 CCCCCCCCCC<br />
-7 CCCCCCCCCC<br />
-8 CCCCCCCCCC<br />
-9 CCCCCCCCCC<br />
-``
+>  ABCDEFGHIJ  
+0 CCCCCCCCCC  
+1 CCCCCCCCCC  
+2 CCCCCCCCCC  
+3 CCCCCCCCCC  
+4 CCCCCCCCCC  
+5 CCCCCCCCCC  
+6 CCCCCCCCCC  
+7 CCCCCCCCCC  
+8 CCCCCCCCCC  
+9 CCCCCCCCCC  
 
 A shot description always begins with the column letter and row number of the shot, followed by a colon, followed by a description of the result. If the shot was a miss, you should just output the word "Miss". For example, if a shot at column J row 5 was a miss, the output would look like the following.
 
-```J5: Miss```
+>J5: Miss
 
 If the show was a hit, you should output the word "Hit" followed by the name of the ship that was hit. For example, if a shot at column J row 5 hit the Carrier, the output would look like the following.
 
-``J5: Hit Carrier``
+>J5: Hit Carrier
 
 If the ship that was hit has been sunk you should output "You sank my" and the name of the ship. For example, if a shot at column J row 5 hit the Carrier, and the Carrier was sunk, the output would look like the following.
 
-``
-J5: Hit Carrier <br />  
-
-
+>J5: Hit Carrier  
 You sank my Carrier
-``
 
 Note that your output should match mine exactly. You should output columns using capital letters regardless of what case they were entered by the user.
 
